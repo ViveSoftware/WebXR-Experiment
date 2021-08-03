@@ -1,0 +1,16 @@
+{
+"companyName": "htc",
+"productName": "webxr_experiment",
+"productVersion": "0.1.0.0",
+"dataUrl": "webxr_experiment_v0.1.0.0.data.unityweb",
+"wasmCodeUrl": "webxr_experiment_v0.1.0.0.wasm.code.unityweb",
+"wasmFrameworkUrl": "webxr_experiment_v0.1.0.0.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.28f1"
+}
