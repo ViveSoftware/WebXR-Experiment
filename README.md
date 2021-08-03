@@ -1,0 +1,2 @@
+This is an experimental project to help exploring WebXR apps.
+Codebase is starting from the Unity WebXR Template project created by [MozillaReality](https://github.com/MozillaReality/unity-webxr-export/)
