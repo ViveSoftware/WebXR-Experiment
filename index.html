@@ -25,10 +25,10 @@
       MozillaResearch.telemetry.performance.mark('LoaderParsingStart');
     </script>
 
-    <script src="webxr-experiment-build.loader.js"></script>
+    <script src="Build/webxr-experiment-build.loader.js"></script>
     <script>
         UnityLoader.SystemInfo.mobile = false;  // Workaround to force `UnityLoader` to actually load on mobile.
-        window.gameInstance = UnityLoader.instantiate('gameContainer', 'webxr-experiment-build.loader.js', {
+        window.gameInstance = UnityLoader.instantiate('gameContainer', 'Build/webxr-experiment-build.loader.js', {
           Module: {
             // `preserveDrawingBuffer` is needed for WebVR content to be mirrored to the `<canvas>`.
             webglContextAttributes: {
